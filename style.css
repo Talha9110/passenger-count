@@ -1,0 +1,49 @@
+body {
+	font-weight: bold;
+	background-color: gray;
+	color: black;
+	overflow-y: hidden;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 50px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+button {
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	color: white;
+	width: 200px;
+	margin: 5px auto;
+	border-radius: 5px;
+	display: block;
+}
+
+.increment {
+	background-color: darkred;
+}
+
+.save {
+	background-color: darkgreen;
+}
+
+#saved {
+	font-size: 20px;
+}
